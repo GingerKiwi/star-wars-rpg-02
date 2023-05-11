@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## (2023.05.11 | Thursday, March 11, 2023)
+
+- Use array constructor instead of for loop
+- Create new constructor function
+- Create method for new constructor function and render characters on page
+- Object.assign
+- Simplify the constructor function
+- Stop setting the innerHTML inside the constructor function
+- Fix the Broken Rendering
+- Create a single render function for both characters
+- Amalgamate the Objects
+- Move Data to New data.js file
+- Add utils.js
+- Move the character constructor function to new Character.js file
+- Export and import appropriate files within the project
+- Download updated project fork from Scrimba
+- Init as git repo
+- Connect local to new GitHub repo
+- Deploy on Netlify
+
 ## (2023.05.10 | Wednesday, March 10, 2023)
 
 - Generate Random Value for Dice

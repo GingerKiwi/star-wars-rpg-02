@@ -147,7 +147,7 @@ document.getElementById('mushrooms').innerHTML = poisonMushrooms
 
 ```
 
-## Challenge 10: Use Array Constructor Instead of for Loop 
+## Challenge 10: Use Array Constructor Instead of for Loop
 
 1. Instead of the for loop, use an Array constructor to create a new array which is diceCount length.
 2. Fill the new array with zeros as its initial state.
@@ -220,12 +220,12 @@ nellyTheElephant.summariseAnimal()
 
 ```
 
-## Challenge 11:
+## Challenge 11: Create New Constructor Function
 
 1. Create a new constructor function called Character which takes our data as a paramenter.
 2. Set up "this" for each of the 5 properties in our objects (eg: this.health = data.health).
 
-## Challenge 12:
+## Challenge 12: Create Method for Constructor Function and Render Characters on Page
 
 1. Create a method called getCharacterHtml that performs the same tasks as our current renderCharacter function.
 2. Create two new instances of Character. One for a hero, called "wizard", and one for a monster, called "orc". Render both of them on the page.
