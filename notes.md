@@ -9,7 +9,7 @@
 
 1. Strip out the hero and monster data (element id, name, avatar, health and dice score) and store them in variables
 
-2. Write a renderCharacter() function that accepts the 5 new variables as paramaters and renders out a character with this data
+2. Write a renderCharacter() function that accepts the 5 new variables as parameters and renders out a character with this data
 
 3. Call renderCharacter() twice. Once with the hero variables and once with the monster variables to that both are rendered
 
@@ -31,13 +31,13 @@ let user = {        // an object
 
 ## CHALLENGE 04: Destructure the Data Object
 
-1. Deconstruct the data object 
+1. Deconstruct the data object
 2. Update the template string as necessary
 
 ## CHALLENGE 05: Render Multiple Dice
 
 1. declare a let called diceHtml and initialize it with an empty string. 
-2. Use a for loop to update diceHtml so that it contains the HTML for our dice. The number of dice needed is specificed in the diceCount property of the objects.
+2. Use a for loop to update diceHtml so that it contains the HTML for our dice. The number of dice needed is specified in the diceCount property of the objects.
 3. Each dice should have the following HTML: 
 
 ```html 
@@ -55,41 +55,39 @@ Update this for loop so it uses a value from the new diceRoll array to render ou
 
 1. Instead of the for loop, map over the diceRoll array and save the new array to diceHTML.
 2. Remember to deal with the commas between dice.
-3. What keyword should be used to declare diceHTML? 
+3. What keyword should be used to declare diceHTML?
 
 ## Challenge 08: Generate Random Value for Dice
 
-1. Create a function called getDiceRollArray that uses a for loop to return an array of random numbers between 1-6. 
-2.  The function should have diceCount as a parameter and the array it returns should be diceCount length.
-3.  For testing purposes, call the function with a diceCount of 3 and log out the result. 
-check out hint.md for extra help!
+1. Create a function called getDiceRollArray that uses a for loop to return an array of random numbers between 1-6.
+2. The function should have diceCount as a parameter and the array it returns should be diceCount length.
+3. For testing purposes, call the function with a diceCount of 3 and log out the result. check out hint.md for extra help!
 
-### Hints: These will be useful:
+### Hints: These will be useful
 
-    1. Math.random() - will generate a random number between 0 and 1 but not inclusive of 1.
-    2. Math.floor() - will round a number down to the nearest integer
+1. Math.random() - will generate a random number between 0 and 1 but not inclusive of 1.
+2. Math.floor() - will round a number down to the nearest integer
 
 ## Challenge 09: Render Dice With Random Numbers
 
-1. Create a function called getDiceHtml. 
-2. getDiceHtml should map over the array of dice rolls returned from getDiceRollArray to generate the html we need to render our dice with random values. This is the HTML: 
+1. Create a function called getDiceHtml.
+2. getDiceHtml should map over the array of dice rolls returned from getDiceRollArray to generate the html we need to render our dice with random values. This is the HTML:
+
 ```js
 
 `<div class="dice">DICE VALUE HERE</div>`
 
 ```
+
 3. Think about the parameters and arguments!
 4. Down in renderCharacter(), set diceHtml equals to our new getDiceHtml function. Remember to give it the argument it needs. 
 5. Delete any code we no longer need.
 
-### Hints: 
-    1. Your function should take in diceCount as a parameter.
-    2. It should then return the array it gets by calling 
-    getDiceRollArray(). Remember to use as an argument.
-    3. There's no need to set up a new variable - you can map 
-    over the array returned by getDiceRollArray directly to 
-    return the html template for each dice.
-    
+### Hints:
+
+1. Your function should take in diceCount as a parameter.
+2. It should then return the array it gets by calling getDiceRollArray(). Remember to use as an argument.
+3. There's no need to set up a new variable - you can map over the array returned by getDiceRollArray directly to return the html template for each dice.   
 Changed/Deleted:
 
 ```js
@@ -301,7 +299,7 @@ function getDiceHtml(diceCount) {
 
 ## CHALLENGE 15: Stop Setting The innerHTML Inside The Constructor Function
 
-- instead of setting the innerHTML from right here in the contructor (see below for before change), make it so that we just return that literal string of HTML
+- instead of setting the innerHTML from right here in the constructor (see below for before change), make it so that we just return that literal string of HTML
 - This will break the app. Don't worry!
 
 ```js
@@ -323,7 +321,6 @@ this.getCharacterHtml = function () {
 ## CHALLENGE 15: Fix the Broken Rendering
 
 - Make the wizard and orc render
-
 ### Note: Help.md
 
 - The .getCharacterHtml method of our constructor is returning a string containing HTML.
@@ -367,7 +364,6 @@ this.getCharacterHtml = function () {
 - Import/Export
 
 ___
-
 ## Note: New Git Repo
 
 - (Adding an existing project to GitHub using the command line by Alex Chin)[https://gist.github.com/alexpchin/102854243cd066f8b88e]
