@@ -371,3 +371,18 @@ ___
 ## Note: New Git Repo
 
 - (Adding an existing project to GitHub using the command line by Alex Chin)[https://gist.github.com/alexpchin/102854243cd066f8b88e]
+
+- I was having issues until I used the following command
+
+```zsh
+Error:
+
+    hint: Updates were rejected because the remote contains work that you do
+    hint: not have locally. This is usually caused by another repository pushing
+    hint: to the same ref. You may want to first integrate the remote changes
+    hint: (e.g., 'git pull ...') before pushing again.
+    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+    Force it:
+    < git push --set-upstream origin main --force >
+```
