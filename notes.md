@@ -368,8 +368,6 @@ this.getCharacterHtml = function () {
 
 ___
 
+## Note: New Git Repo
 
-
-  
-
-
+- (Adding an existing project to GitHub using the command line by Alex Chin)[https://gist.github.com/alexpchin/102854243cd066f8b88e]
